@@ -1,0 +1,36 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Įrenginys jau sukonfigūruotas"
+        },
+        "error": {
+            "cannot_connect": "Nepavyko prisijungti",
+            "unknown": "Netikėta klaida",
+            "unsupported_device": "Nepalaikomas įrenginys"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Adresas",
+                    "port": "Prievadas"
+                }
+            }
+        }
+    },
+    "entity": {
+        "climate": {
+            "s21climate": {
+                "state_attributes": {
+                    "fan_mode": {
+                        "state": {
+                            "low": "Lėtas",
+                            "medium": "Vidutinis",
+                            "high": "Greitas",
+                            "custom": "Pasirinktinis"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
