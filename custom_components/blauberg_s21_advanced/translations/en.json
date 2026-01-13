@@ -1,0 +1,33 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "unknown": "Unexpected error",
+            "unsupported_device": "Unsupported device"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "port": "Port"
+                }
+            }
+        }
+    },
+    "entity": {
+        "climate": {
+            "s21climate": {
+                "state_attributes": {
+                    "fan_mode": {
+                        "state": {
+                            "custom": "Custom"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
